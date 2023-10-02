@@ -11,3 +11,5 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 			.catch((err) => console.log(err));
 	}
 });
+
+
